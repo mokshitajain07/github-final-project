@@ -1,1 +1,13 @@
+curl -s https://api.github.com/repos/octocat/Spoon-Knife/pulls/40986
 
+(full JSON output you saw first)
+
+curl -s https://api.github.com/repos/octocat/Spoon-Knife/pulls/40986 | grep -A 2 '"full_name"'
+
+"full_name": "mokshitajain07/Spoon-Knife",
+  "owner": {
+    "login": "mokshitajain07",
+--
+        "full_name": "octocat/Spoon-Knife",
+        "owner": {
+          "login": "octocat",
