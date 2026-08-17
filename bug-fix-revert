@@ -1,13 +1,9 @@
-curl -s https://api.github.com/repos/octocat/Spoon-Knife/pulls/40986
+curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/10320 | grep -A 2 '"full_name"'
 
-(full JSON output you saw first)
-
-curl -s https://api.github.com/repos/octocat/Spoon-Knife/pulls/40986 | grep -A 2 '"full_name"'
-
-"full_name": "mokshitajain07/Spoon-Knife",
-  "owner": {
-    "login": "mokshitajain07",
+	"full_name": "mokshitajain07/mcino-Introduction-to-Git-and-GitHub",
+	"owner": {
+	  "login": "mokshitajain07",
 --
-        "full_name": "octocat/Spoon-Knife",
-        "owner": {
-          "login": "octocat",
+	"full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+	"owner": {
+	  "login": "ibm-developer-skills-network",
